@@ -1,0 +1,99 @@
+html {
+    font-family: 'Nanum Myeongjo', serif;
+}
+.no-drag {
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    user-select:none;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    position: fixed;
+    top: 0;
+    width:100%;
+    height: fit-content;
+    background-image: url("http://1026minjae.github.io/resources/background.jpg");
+    background-position-y: -200px;
+    background-size: cover;
+}
+header font, footer font {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    color: #ffffff;
+}
+span.bar {
+    display: block;
+    background-color: #ffffff;
+    height: 4px;
+    margin-bottom: 8px;
+}
+div#title {
+    width: 100%;
+}
+div#title font {
+    font-size: 20px;
+    cursor: pointer;
+}
+div#menu {
+    width: 100%;
+    height: fit-content;
+}
+div#menu table {
+    width: 90%;
+    margin-top: 8px;
+    border: 2px solid #ffffff;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+}
+div#menu thead td {
+    border-bottom: 1px solid #ffffff;
+    font-size: 20px;
+}
+div#menu td {
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    padding: 4px;
+    text-align: center;
+}
+div#mail {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-image: url("https://ssl.pstatic.net/static/pwe/common/sp_pnb_fb2bc435.png");
+    background-size: 312px 235px;
+    background-position: -165px -138px;
+}
+div#container {
+    width: 100%;
+}
+div#part_profile {
+    margin-top: 200px;
+}
+div#profile_image {
+    background-image: url("http://1026minjae.github.io/resources/background.jpg");
+    background-size: cover;
+    width: 200px; 
+    height: 200px; 
+    border-radius: 100px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+footer {
+    height: 100px;
+    background-image: url("http://1026minjae.github.io/resources/background.jpg");
+    background-position-y: 750px;
+    background-size: cover;
+}
